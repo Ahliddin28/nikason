@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mebel shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css"
+      integrity="sha512-HqxHUkJM0SYcbvxUw5P60SzdOTy/QVwA1JJrvaXJv4q7lmbDZCmZaqz01UPOaQveoxfYRv1tHozWGPMcuTBuvQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <div class="navbar-end">
+            <a class="navbar-item ml-6 mr-6 mt-3 mb-2" href="firstpage.html"> Мастер-классы </a>
+            <a class="navbar-item ml-6 mr-6 mt-3 mb-2" href="secondpage.html"> Мебель на заказ </a>
+            <div class="ml-6 mr-6 mt-3 mb-2">
+              <img src="logo.png" alt="" style="width: 80px; height: auto" />
+            </div>
+            <a class="navbar-item ml-6 mr-6 mt-3 mb-2" href="thirdpage.html"> Контакты </a>
+            <a class="navbar-item ml-6 mr-6 mt-3 mb-2" href="fourthpage.html"> О нас </a>
+          </div>
+        </div>
+        <div class="navbar-end"></div>
+      </div>
+    </nav>
+    <!-- First-section-starts -->
+    <div class="first section" style="background-image: url(sbg.png)">
+      <center>
+        <p class="has-text-white" style="margin-top: 10%">
+          Воплотим вашу любую задумку в реальность
+        </p>
+        <p class="has-text-white title is-1">
+          Столярная мастерская <br />NIKASON BRAND
+        </p>
+        <br /><br />
+        <button class="button pl-6 pr-6 pt-5 pb-5 has-text-link">
+          Смотреть мастер-классы
+        </button>
+      </center>
+    </div>
+    <div class="second section container">
+      <h1 class="title is-1">Почему выбирают нас</h1>
+      <br />
+      <div id="flex">
+        <div class="box" id="box">
+          <b>Давно на рынке</b><br />
+          <hr class="has-background-dark" />
+          <p>Опыт работы на рынке больше 10 лет</p>
+        </div>
+        <div class="box" id="box">
+          <b>Гарантия качества</b><br />
+          <hr class="has-background-dark" />
+          <p>Предоставляем гарантию 12 месяцев на изделия</p>
+        </div>
+        <div class="box" id="box">
+          <b>Юридическая прозрачность</b><br />
+          <hr class="has-background-dark" />
+          <p>Заключаем с каждым клиентом договор</p>
+        </div>
+        <div class="box" id="box">
+          <b>Экологичность</b><br />
+          <hr class="has-background-dark" />
+          <p>Мебель из натуральной древесины, краски без токсичного состава</p>
+        </div>
+        <div class="box" id="box">
+          <b>Эксклюзивность</b><br />
+          <hr class="has-background-dark" />
+          <p>Каждая мебель изготовлена по индивидуальному дизайну</p>
+        </div>
+        <div class="box" id="box">
+          <b>Долговечность</b><br />
+          <hr class="has-background-dark" />
+          <p>Мебель из массива дерева прослужит даже вашим детям</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="third section">
+      <h1 class="title is-1">Портфолио</h1>
+      <br />
+      <div
+        style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+        class="swiper mySwiper2"
+      >
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="swimg1.png" /></div>
+          <div class="swiper-slide"><img src="i1.png" /></div>
+          <div class="swiper-slide"><img src="i3.png" /></div>
+          <div class="swiper-slide"><img src="i5.png" /></div>
+          <div class="swiper-slide"><img src="i7.png" /></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <div thumbsSlider="" class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="swimg1.png" /></div>
+          <div class="swiper-slide"><img src="i1.png" /></div>
+          <div class="swiper-slide"><img src="i3.png" /></div>
+          <div class="swiper-slide"><img src="i5.png" /></div>
+          <div class="swiper-slide"><img src="i7.png" /></div>
+        </div>
+      </div>
+      <br />
+    </div>
+
+    <div class="fourth section" style="background-image: none">
+      <h1 class="title is-1">Этапы производства</h1>
+      <br />
+      <div id="flex">
+        <div class="box" style="border: 1px solid; min-width: 320px">
+          <h1 class="title" style="margin-left: 90%">1</h1>
+          <br /><br />
+          <p>Встреча с клиентом</p>
+        </div>
+        <div class="box" style="border: 1px solid; min-width: 320px">
+          <h1 class="title" style="margin-left: 90%">2</h1>
+          <br /><br />
+          <p>Встреча с клиентом</p>
+        </div>
+        <div class="box" style="border: 1px solid; min-width: 320px">
+          <h1 class="title" style="margin-left: 90%">3</h1>
+          <br /><br />
+          <p>Встреча с клиентом</p>
+        </div>
+        <div class="box"style="border:1px solid;min-width:320px">
+          <h1 class="title" style="margin-left: 90%;">4</h1><br><br>
+          <p>Встреча с клиентом</p>
+          </div>        <div class="box"style="border:1px solid;min-width:320px">
+            <h1 class="title" style="margin-left: 90%;">5</h1><br><br>
+            <p>Встреча с клиентом</p>
+            </div>        <div class="box"style="border:1px solid;min-width:320px;">
+              <h1 class="title" style="margin-left: 90%;">6</h1><br><br>
+              <p>Встреча с клиентом</p>
+              </div>
+      </div>
+    </div>
+    <div class="fifth section">
+      <h1 class="title is-1">Клиенты о нас</h1><br>
+<center>
+  <div class="columns">
+    <div class="column"><img src="ei1.png" alt=""></div>
+    <div class="column"><img src="ei2.png" alt=""></div>
+    <div class="column"><img src="ei3.png" alt=""></div>
+    <div class="column"><img src="ei4.png" alt=""></div>
+    <div class="column"><img src="ei5.png" alt=""></div>
+  </div>
+</center>
+    </div>
+    <div class="sixth section">
+      <center><h1 class="title is-1">Оставьте заявку и мы с вами свяжемся</h1>
+        <button class="button has-background-grey-light has-text-white p-5">
+          Смотреть больше примеров
+        </button>
+    </div>
+
+    <footer class="footer" style="background-color: #715b4b">
+      <div id="flex2" class="has-text-white">
+        <div>
+          ИП Колодезников-Матчитов Н.И.<br />
+          ИНН 143515646663
+        </div>
+        <div>
+          <p>Мастер-классы</p>
+          <p>Мебель на заказ</p>
+        </div>
+        <div>
+          <p>Контакты</p>
+
+          <p>О нас</p>
+        </div>
+        <div>
+          <p>Политика кофиденциальности</p>
+          <p>Договор оферты</p>
+        </div>
+        <div style="display: flex">
+          <i class="fab fa-instagram" id="circle2"></i>
+          <i class="fab fa-whatsapp" id="circle2"></i>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer ends-->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
